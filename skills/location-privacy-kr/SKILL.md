@@ -49,21 +49,21 @@ argument-hint: "[audit|fix|docs|prep] [repo path] [terms/privacy URL or file]"
 
 ## 4단계: 문서 점검
 
-- 위치기반서비스 이용약관: `references/terms-checklist.md` (T1~T22)
-- 개인정보 처리방침과 개인위치정보 항목: `references/privacy-policy-checklist.md` (P1~P20, L1~L7)
+- 위치기반서비스 이용약관: `references/terms-checklist.md` (T1-T22)
+- 개인정보 처리방침과 개인위치정보 항목: `references/privacy-policy-checklist.md` (P1-P20, L1-L7)
 - 각 항목: 통과 / 미흡 / 누락 / 해당없음 / 확인 불가 + 근거(원문 인용, URL, 파일:줄).
 - 문서끼리의 충돌(가입 화면과 동의서의 필수·선택 표기 등)도 발견사항이다.
 
 ## 5단계: 동의·권리·파기
 
-`references/consent-and-rights.md` (C1~C3, R1~R4, N1, K1).
+`references/consent-and-rights.md` (C1-C3, R1-R4, N1, K1).
 - UI와 서버를 따로 판정한다.
 - OS 권한 허용은 위치정보 동의가 아니고, OS 권한 해제는 동의 철회가 아니다.
 - 공유 기능이 있으면 사후통보(N1), 가입 연령 제한이 없으면 14세 미만(K1)을 반드시 본다.
 
 ## 6단계: 보호조치와 기록
 
-`references/safeguards.md` (S1~S5).
+`references/safeguards.md` (S1-S5).
 - 확인자료 자동 기록·보존(S1)은 형사처벌 조항이다. 서버 코드에서 기록 지점을 찾고, 없거나 볼 수 없으면 그대로 적는다.
 - 관리 체계 문서(S4)는 코드로 확인할 수 없다. prep 모드에서만 증빙 목록으로 낸다.
 
@@ -81,7 +81,7 @@ argument-hint: "[audit|fix|docs|prep] [repo path] [terms/privacy URL or file]"
 2. 코드: 동의 집행(F1), 철회·일시중지(F2), 확인자료 기록(F3), 최소 수집(F4), 파기(F5), 사후통보(F6), 연령 분기(F7). 프로젝트의 기존 패턴과 언어를 따른다.
 3. 문서: 약관 골격(D1), 처리방침 위치 절(D2). 값은 위치 데이터 지도에서만 가져오고, 모르는 값은 `{{자리표시자}}`.
 4. 프로젝트의 타입체크·린트·테스트를 돌린다. 실패하면 고치고, 고칠 수 없으면 보고한다.
-5. 3단계~6단계를 수정된 코드로 다시 돌려 전후 비교표를 보고서에 붙인다.
+5. 3단계-6단계를 수정된 코드로 다시 돌려 전후 비교표를 보고서에 붙인다.
 
 ## 출력
 

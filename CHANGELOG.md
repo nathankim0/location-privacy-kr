@@ -4,6 +4,9 @@ All notable changes to this project are documented here. Versions follow [Semant
 
 ## Unreleased
 
+### Fixed
+- Range notation uses `-` or "부터…까지" instead of `~`, which GitHub renders as strikethrough; reports follow the same rule.
+
 ## 1.0.0 - 2026-11-13
 
 ### Added

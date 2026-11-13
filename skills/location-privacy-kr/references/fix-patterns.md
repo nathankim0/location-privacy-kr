@@ -101,7 +101,7 @@ CREATE TABLE location_use_log (
 
 ### D2. 처리방침의 개인위치정보 절
 
-`privacy-policy-checklist.md` 2층 L1~L7 순서대로 쓴다. 약관과 같은 값(보유기간, 책임자, 통보 방식)을 쓰고, 다르면 하나로 맞춘다.
+`privacy-policy-checklist.md` 2층 L1-L7 순서대로 쓴다. 약관과 같은 값(보유기간, 책임자, 통보 방식)을 쓰고, 다르면 하나로 맞춘다.
 
 ### D3. 문서와 코드 맞추기
 
