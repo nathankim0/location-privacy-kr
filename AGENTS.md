@@ -36,7 +36,7 @@ ATTRIBUTIONS.md                              source skills and legal sources
      gh release create vX.Y.Z --title "vX.Y.Z" --notes-file <notes>
      ```
 3. **Docs-only changes do not release.** README, AGENTS.md, images, comments, and typo fixes are committed and pushed with no version bump, tag, or release.
-4. **Keep READMEs in sync.** Any change to `README.md` gets the same change in `README.ko.md`, and the reverse.
+4. **Keep READMEs in sync.** `README.md` is Korean (the default shown on GitHub) and `README.en.md` is English. Any change to one gets the same change in the other.
 5. **Validate before committing** a distribution change: `claude plugin validate .` must pass.
 6. **Never commit secrets or private information**: no tokens, employer or internal names, personal emails, or home paths. Audit reports of real projects never go into this repo.
 
