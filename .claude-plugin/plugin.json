@@ -1,6 +1,6 @@
 {
   "name": "location-privacy-kr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Audit and fix compliance with Korea's Location Information Act and PIPA: maps location data in code, checks location-based service terms, privacy policy and consent flows, and drafts fixes.",
   "author": { "name": "nathankim0", "url": "https://github.com/nathankim0" },
   "homepage": "https://github.com/nathankim0/location-privacy-kr",

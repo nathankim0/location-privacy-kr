@@ -1,7 +1,7 @@
 {
   "name": "location-privacy-kr",
   "owner": { "name": "nathankim0", "url": "https://github.com/nathankim0" },
-  "metadata": { "description": "Korean Location Information Act and PIPA compliance audit skill", "version": "1.0.0" },
+  "metadata": { "description": "Korean Location Information Act and PIPA compliance audit skill", "version": "1.0.1" },
   "plugins": [
     { "name": "location-privacy-kr", "source": "./", "description": "Audit and fix Korean location-privacy compliance in code, terms and privacy policy", "category": "security" }
   ]
