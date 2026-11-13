@@ -4,6 +4,8 @@ All notable changes to this project are documented here. Versions follow [Semant
 
 ## Unreleased
 
+## 1.0.0 - 2026-11-13
+
 ### Added
 - `location-privacy-kr` skill with four modes: `audit`, `fix`, `docs`, `prep`.
 - Location data map from code for any stack (Android, iOS including Objective-C, React Native, Flutter, web, backend).
