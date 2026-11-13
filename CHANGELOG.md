@@ -1,0 +1,12 @@
+# Changelog
+
+All notable changes to this project are documented here. Versions follow [Semantic Versioning](https://semver.org/).
+
+## Unreleased
+
+### Added
+- `location-privacy-kr` skill with four modes: `audit`, `fix`, `docs`, `prep`.
+- Location data map from code for any stack (Android, iOS including Objective-C, React Native, Flutter, web, backend).
+- Checklists for location-based service terms (T1-T22), privacy policy (P1-P20) and personal location information items (L1-L7), consent and rights (C, R, N, K), and safeguards (S1-S5).
+- Fix patterns: consent enforcement, withdrawal and pause, automatic use/provision records, minimal collection, deletion, third-party notice, age gating, and document skeletons.
+- 17 rulings on where the five source skills conflicted (`references/conflicts.md`).
