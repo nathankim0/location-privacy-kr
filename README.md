@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/banner.png" alt="location-privacy-kr banner" width="100%">
+</p>
+
+<p align="center">
   <b>English</b> · <a href="README.ko.md">한국어</a>
 </p>
 
@@ -49,7 +53,7 @@ Output (summary excerpt from the actual run, 2026-11-13):
 | 치명 1 (조건부) | 높음 5 (조건부) | 보통 5 | 낮음 2 | 확인 불가 8 |
 
 LP-05 높음(조건부) 친구 위치 구독으로 위치가 다른 사용자에게 제공되나
-      제3자 제공 고지·별도 동의·사후통보 장치 없음 | 위치정보법 제19조 제2항~제4항 | F6
+      제3자 제공 고지·별도 동의·사후통보 장치 없음 | 위치정보법 제19조 제2항-제4항 | F6
 ```
 
 ## Requirements

@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/banner.png" alt="location-privacy-kr banner" width="100%">
+</p>
+
+<p align="center">
   <a href="README.md">English</a> · <b>한국어</b>
 </p>
 
@@ -25,7 +29,7 @@ Claude Code와 Codex용 에이전트 스킬입니다. 코드와 법정 문서를
 | `docs` | 약관·처리방침 URL이나 파일 | 문서 체크리스트 결과 |
 | `prep` | "실태점검 준비" | 점검에 더해 증빙 목록, 내부 관리지침 목차, 확인자료 테이블 스키마 |
 
-체크리스트는 위치기반서비스 이용약관(T1~T22), 개인정보 처리방침(P1~P20)과 개인위치정보 항목(L1~L7), 동의·권리, 보호조치를 다룹니다. 심각도는 GDPR 등급이 아니라 한국 법의 제재 종류(형사처벌, 과태료, 권고)로 매깁니다. 원본 스킬끼리 부딪힌 17개 지점의 판정은 [`conflicts.md`](skills/location-privacy-kr/references/conflicts.md)에 있습니다.
+체크리스트는 위치기반서비스 이용약관(T1-T22), 개인정보 처리방침(P1-P20)과 개인위치정보 항목(L1-L7), 동의·권리, 보호조치를 다룹니다. 심각도는 GDPR 등급이 아니라 한국 법의 제재 종류(형사처벌, 과태료, 권고)로 매깁니다. 원본 스킬끼리 부딪힌 17개 지점의 판정은 [`conflicts.md`](skills/location-privacy-kr/references/conflicts.md)에 있습니다.
 
 ## 예시
 
@@ -49,7 +53,7 @@ Claude Code와 Codex용 에이전트 스킬입니다. 코드와 법정 문서를
 | 치명 1 (조건부) | 높음 5 (조건부) | 보통 5 | 낮음 2 | 확인 불가 8 |
 
 LP-05 높음(조건부) 친구 위치 구독으로 위치가 다른 사용자에게 제공되나
-      제3자 제공 고지·별도 동의·사후통보 장치 없음 | 위치정보법 제19조 제2항~제4항 | F6
+      제3자 제공 고지·별도 동의·사후통보 장치 없음 | 위치정보법 제19조 제2항-제4항 | F6
 ```
 
 ## 필요한 것
@@ -100,8 +104,8 @@ skills/location-privacy-kr/SKILL.md            워크플로
 skills/location-privacy-kr/references/
   applicability.md                             위치정보 해당 여부, 사업자 유형
   code-audit.md                                코드에서 위치 데이터 지도 만들기
-  terms-checklist.md                           위치기반서비스 이용약관 T1~T22
-  privacy-policy-checklist.md                  처리방침 P1~P20, 개인위치정보 L1~L7
+  terms-checklist.md                           위치기반서비스 이용약관 T1-T22
+  privacy-policy-checklist.md                  처리방침 P1-P20, 개인위치정보 L1-L7
   consent-and-rights.md                        동의, 철회, 일시중지, 파기, 사후통보, 14세 미만
   safeguards.md                                확인자료, 접근기록, 통제, 실태점검 준비
   penalties.md                                 심각도와 제재
